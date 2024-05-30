@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "A02D7C7F-0080-4F6A-A678-20D2694D71CB",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SPMSandbox.xcodeproj",
+        "identifier" : "815C564D2C080BBE009B5BDD",
+        "name" : "SPMSandboxTests"
+      }
+    }
+  ],
+  "version" : 1
+}

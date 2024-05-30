@@ -31,6 +31,7 @@
 		815C56482C080BBE009B5BDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		815C564E2C080BBE009B5BDD /* SPMSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPMSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		815C56522C080BBE009B5BDD /* SPMSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMSandboxTests.swift; sourceTree = "<group>"; };
+		815C56702C08DAF2009B5BDD /* CI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				815C56412C080BBC009B5BDD /* SPMSandboxApp.swift */,
+				815C566F2C08DAC2009B5BDD /* TestPlans */,
 				815C56452C080BBE009B5BDD /* Assets.xcassets */,
 				815C56472C080BBE009B5BDD /* Preview Content */,
 			);
@@ -102,6 +104,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		815C566F2C08DAC2009B5BDD /* TestPlans */ = {
+			isa = PBXGroup;
+			children = (
+				815C56702C08DAF2009B5BDD /* CI.xctestplan */,
+			);
+			path = TestPlans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
